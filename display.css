@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.principal{
+    align-items: center;
+    text-align: center;
+}
+.container_caixa{
+    margin: 0 6em;
+}
+.img {
+    padding: 0 20%;
+    margin: 1em 0 2em 0;
+}
+.container_botao {
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+.container_botao2{
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+/*  section secundaria  */
+
+.container_2{
+    margin: 0 6em;
+    align-items: center;
+
+}
+.container_descricao {
+    margin: 10px 10px;
+    padding: 0 5%;
+}
+
+.descricao_titulo{
+    margin-bottom: 0.1em;
+}
+
+.descicao_texto {
+    margin-bottom: 0.1em;
+}
+
+.img2 {
+    width: 80%;
+
+}
+
+.container_botao3{
+        display: inline-block;
+        margin-top: 1em;
+}
+
+.dispositivos_lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin: 5em;
+}
+
+.flooter_logo{
+    width: 10%;
+    padding: 02% 50%;
+}
+
+.flooter_lista{
+    display:flex ;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.flooter_link{
+    margin-left: 1em;
+}
+
+.flooter_texto{
+    font-size: 14px;
+    margin: 0.5em 0;
+}
